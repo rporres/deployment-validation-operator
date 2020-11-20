@@ -8,10 +8,6 @@ QUAY_USER ?=
 QUAY_TOKEN ?=
 OPM_VERSION = v1.14.2
 GRPCURL_VERSION = 1.7.0
-
-BUNDLE_DEPLOY_DIR = deploy/bundle
-MANIFEST_DIR = $(BUNDLE_DEPLOY_DIR)/manifests
-CSV = $(MANIFEST_DIR)/deploymentvalidationoperator.clusterserviceversion.yaml
 CONFIG_DIR = .docker
 
 # This include must go below the above definitions
